@@ -1,0 +1,53 @@
+.box1 {
+    height: 200px;
+    max-width: 200px;
+    background-color: rgb(255, 196, 87);
+    display: block;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.box2 {
+    height: 200px;
+    max-width: 600px;
+    background-color: rgb(49, 155, 49);
+    display: block;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clear {
+    clear: both;
+}
+.photo {
+    height: auto;
+    width: 300px;
+    justify-content: center;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    float: left;
+    flex-wrap: wrap;
+}
+span {
+    color: gray;
+    font-size: 0.80em;
+}
+
+.red {
+    color: palevioletred;
+}
+.textbox {
+    max-width: 300px;
+    color: gray;
+    float: inline-start;
+    margin: 3px;
+    padding: 3px;
+}

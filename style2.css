@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.headtext{
+    color: rgb(0, 0, 0);
+}
+.null {
+    background-image: radial-gradient(circle, #f75c03, #5fa8d3, #003249);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1),3px 4px 4px rgba(0, 0, 0, 0.15),4px 6px 4px rgba(0, 0, 0, 0.)
+} 
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #cae9ff ;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    margin: auto;
+    box-shadow: 0.125rem .375rem rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body {
+    background-blend-mode: soft-light;
+    background-color: #ebeced;
+    
+}
+a {
+    text-decoration: none;
+    color :inherit;
+
+}
+ul,li{
+    display: grid;
+}
+h4{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 8px;
+    color: rgb(245, 239, 231);
+    font-size: 15px ;
+    border: rgb(from color r g b);
+    border-style:outset;
+
+}
+ol {
+    margin: 10px;
+}
+.totop{
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    
+    
+}
+button,input {
+    background-color: #3E5879;
+    border-radius: 30px;
+    border: rgb(245, 239, 231);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h3 {
+    margin: 20px;
+}
+.main {
+    max-width: 1200vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:  50px 100px 0 100px;
+    
+  }
+  .main2 {
+    max-width: 850px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:  50px 100px 0 100px;
+    
+  }
+  .category {
+    display: block;
+    max-width: 80%;
+    margin: 30px;
+}
+.totopic li {
+    display: inline;
+    margin-right: 10px;
+}
+.section {
+    margin: 50px 10px 10px 90px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+table {
+    width: 500px;
+    text-align: right;
+}
+table .head{
+    text-align: left;
+    padding-left: 5px;
+}
